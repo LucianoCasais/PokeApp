@@ -1,0 +1,117 @@
+:root {
+    --clr-black: #1c1c1c;
+    --clr-gray: #ececec;
+    --clr-white: #f7f7f7;
+
+    --normal: #A8A878;
+    --fire: #F08030;
+    --water: #6890F0;
+    --grass: #78C850;
+    --electric: #F8D030;
+    --ice: #98D8D8;
+    --fighting: #C03028;
+    --poison: #A040A0;
+    --ground: #E0C068;
+    --flying: #A890F0;
+    --psychic: #F85888;
+    --bug: #A8B820;
+    --rock: #B8A038;
+    --ghost: #705898;
+    --dark: #705848;
+    --dragon: #7038F8;
+    --steel: #B8B8D0;
+    --fairy: #F0B6BC;
+}
+
+/*-------------------------------------------*/
+
+/* definicion de color por clase*/
+.Normal {
+    background-color: var(--normal);
+    color: var(--clr-black);
+}
+
+.Fuego {
+    background-color: var(--fire);
+    color: var(--clr-black);
+}
+
+.Agua {
+    background-color: var(--water);
+    color: var(--clr-white);
+}
+
+.Planta {
+    background-color: var(--grass);
+    color: var(--clr-black);
+}
+
+.Electrico {
+    background-color: var(--electric);
+    color: var(--clr-black);
+}
+
+.Hielo {
+    background-color: var(--ice);
+    color: var(--clr-black);
+}
+
+.Pelea {
+    background-color: var(--fighting);
+    color: var(--clr-white);
+}
+
+.Veneno {
+    background-color: var(--poison);
+    color: var(--clr-white);
+}
+
+.Tierra {
+    background-color: var(--ground);
+    color: var(--clr-black);
+}
+
+.Volador {
+    background-color: var(--flying);
+    color: var(--clr-black);
+}
+
+.Psíquico {
+    background-color: var(--psychic);
+    color: var(--clr-black);
+}
+
+.Bicho {
+    background-color: var(--bug);
+    color: var(--clr-black);
+}
+
+.Roca {
+    background-color: var(--rock);
+    color: var(--clr-black);
+}
+
+.Fantasma {
+    background-color: var(--ghost);
+    color: var(--clr-white);
+}
+
+.Oscuro {
+    background-color: var(--dark);
+    color: var(--clr-white);
+}
+
+.Dragon {
+    background-color: var(--type-dragon);
+    color: var(--clr-white);
+}
+
+.Acero {
+  background-color: var(--steel);
+    color: var(--clr-black);
+}
+
+.Hada {
+    background-color: var(--fairy);
+    color: var(--clr-black);
+}

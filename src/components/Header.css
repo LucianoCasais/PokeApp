@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+ :root{  
+    /* Palette */
+    --dark-solid:#1F1F1F;
+    --dark-900:rgb(31, 31, 31, 0.9);
+    --dark-700:rgb(31, 31, 31, 0.7);
+    --dark-500:rgb(31, 31, 31, 0.5);
+    --dark-300:rgb(31, 31, 31, 0.3);
+    --dark-200:rgb(31, 31, 31, 0.2);
+
+    /* Typography */
+    --base-font:"DM Sans", sans-serif;
+    --alternative-font:"DM Mono", monospace;
+
+    /* Font-sizes */
+     --font-display:4.6em;
+    --font-jumbo:3.8em;
+    --font-xlarge:3em;
+    --font-large:2.4em;
+    --font-medium:1.8em;
+    --font-small:1.6em;
+    --font-xsmall:1.4em;
+
+    --font:#f4f5f6;
+
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:var(--base-font);
+    font-size: 62.5%;
+    color: var(--dark-solid);
+}
+
+a{
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+header,footer{
+    font-family: var(--alternative-font);
+    color: var(--light-font-solid);
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+p {
+    font-size: 2.0em;
+}
+
+.container{
+    width: 100vw;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+
+.estilo__header{
+    background-color: #c50000;
+    max-width: 100%;
+}
+
+.contenedor__logo{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.logo{
+    width: 350px;
+    padding: 25px;
+    filter: drop-shadow(4px 7px 3px);
+    -webkit-filter: drop-shadow(4px 7px 3px);
+}
+
+/* .estilo__navbar{
+    display: flex;
+    gap: 25px;
+}
+
+.estilo__navbar li{
+    font-family: var(--base-font);
+    font-size: var(--font-large);
+    color: var(--font);
+    font-weight: 300;
+    padding: 0 10px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.estilo__navbar li:hover{
+    background-color: #908f8f8b;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transform:translateY(-3px);
+    -webkit-transform:translateY(-3px);
+    -moz-transform:translateY(-3px);
+    -ms-transform:translateY(-3px);
+    -o-transform:translateY(-3px);
+} */
+

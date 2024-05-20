@@ -26,7 +26,7 @@ export const CardPokemon = (params) => {
   return (
     <Col sm='4' lg='3' className='mb-3'>
       <Card className={'card-hover shadow border-4 border-danger'+cardClass}>
-        <CardImg src={imagen} height='170' className='p-2' />
+        <CardImg src={imagen} height='270' className='p-2' />
         <CardBody className='text-center'>
           <Badge pill color='danger'># {pokemon.id} </Badge>
           <label className='text-capitalize fw-bold'>{pokemon.name}</label>

@@ -3,6 +3,7 @@ import {Link,useParams} from 'react-router-dom'
 import {Row,Col,Card,CardBody,CardText,Badge,Progress, Container} from 'reactstrap'
 import axios from 'axios'
 import CardPokemon from '../components/Cardpokemon'
+import '../pages/DetallePokemon.css'
 
 export const DetallePokemon = () => {
   const {id} = useParams ()
@@ -111,14 +112,14 @@ export const DetallePokemon = () => {
                 <CardText className='fs-5'>Peso: <b>{(pokemon.weight)/10} kg</b></CardText>
                 <CardText className='fs-5'>
                   Tipo: {tipos.map( (tip,i) => (
-                  <Badge pill className='me-1' color='danger' key={i}>
+                  <CardText  className={tip}  key={i}>
                     {tip}
-                  </Badge>
+                  </CardText>
                   ))}
                 </CardText>
-                <CardText className='fs-5'>
+                <CardText className='fs-5 '>
                   Habilidades: {habilidades.map( (hab,i) => (
-                  <Badge pill className='me-1' color='danger' key={i}>
+                  <Badge  className='me-1'  key={i}>
                     {hab}
                   </Badge>
                   ))}
@@ -126,7 +127,7 @@ export const DetallePokemon = () => {
                 <CardText className='fs-5 text-capitalize'>Habitat: <b>{habitat}</b></CardText>
               </Col>
               <Col md='6'>
-                <img src={imagen}></img>
+                <img src={imagen} className='fondo'></img>
               </Col>
               <Col md='12 mt-3'>
                 <CardText className='fs-4 text-center'><b>Estadisticas</b></CardText>

@@ -29,89 +29,157 @@
 .Normal {
     background-color: var(--normal);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    
 }
 
 .Fuego {
     background-color: var(--fire);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Agua {
     background-color: var(--water);
     color: var(--clr-white);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Planta {
     background-color: var(--grass);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
-.Electrico {
+.Eléctrico {
     background-color: var(--electric);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Hielo {
     background-color: var(--ice);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
-.Pelea {
+.Lucha {
     background-color: var(--fighting);
     color: var(--clr-white);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Veneno {
     background-color: var(--poison);
     color: var(--clr-white);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Tierra {
     background-color: var(--ground);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Volador {
     background-color: var(--flying);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Psíquico {
     background-color: var(--psychic);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Bicho {
     background-color: var(--bug);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Roca {
     background-color: var(--rock);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Fantasma {
     background-color: var(--ghost);
     color: var(--clr-white);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Oscuro {
     background-color: var(--dark);
     color: var(--clr-white);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
-.Dragon {
-    background-color: var(--type-dragon);
+.Dragón {
+    background-color: var(--dragon);
     color: var(--clr-white);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Acero {
   background-color: var(--steel);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .Hada {
     background-color: var(--fairy);
     color: var(--clr-black);
+    max-width: 20%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fondo{
+    background: hsla(186, 33%, 94%, 1);
+
+    background: radial-gradient(circle, hsla(186, 33%, 94%, 1) 28%, hsla(216, 41%, 79%, 1) 59%);
+    
+    background: -moz-radial-gradient(circle, hsla(186, 33%, 94%, 1) 28%, hsla(216, 41%, 79%, 1) 59%);
+    
+    background: -webkit-radial-gradient(circle, hsla(186, 33%, 94%, 1) 28%, hsla(216, 41%, 79%, 1) 59%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1 );
+    border-radius: 15px;
 }

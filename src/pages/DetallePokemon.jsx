@@ -112,9 +112,9 @@ export const DetallePokemon = () => {
                 <CardText className='fs-5'>Peso: <b>{(pokemon.weight)/10} kg</b></CardText>
                 <CardText className='fs-5'>
                   Tipo: {tipos.map( (tip,i) => (
-                  <Badge pill className='me-1'  key={i}>
+                  <CardText  className={tip}  key={i}>
                     {tip}
-                  </Badge>
+                  </CardText>
                   ))}
                 </CardText>
                 <CardText className='fs-5 '>
@@ -127,7 +127,7 @@ export const DetallePokemon = () => {
                 <CardText className='fs-5 text-capitalize'>Habitat: <b>{habitat}</b></CardText>
               </Col>
               <Col md='6'>
-                <img src={imagen}></img>
+                <img src={imagen} className='fondo'></img>
               </Col>
               <Col md='12 mt-3'>
                 <CardText className='fs-4 text-center'><b>Estadisticas</b></CardText>

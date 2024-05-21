@@ -5,6 +5,7 @@ import {useState,useEffect} from 'react'
 import CardPokemon from '../components/Cardpokemon'
 import {Container} from 'reactstrap'
 
+
 export const HomePage = () => {
   const [pokemones,setPokemones] = useState([])
   const [allPokemones,setAllPokemones] = useState([])
@@ -49,23 +50,27 @@ export const HomePage = () => {
     }
   }
   return (
-    <Container className='shadow bg-black mt4'>
-      <Row>
-        <Col>
-          <InputGroup className='mt-4'>
+    <>
+     <div className="bodyBg">
+     <div>
+       <div>
+           <InputGroup className="searchBar">
             <InputGroupText><i className='fa-solid fa-magnifying-glass'></i></InputGroupText>
-            <Input value={filtro} onChange={(e) => {setFiltro(e.target.value)}}
-             onKeyUpCapture={buscar} placeholder='¿Que Pokémon quieres buscar?'></Input>
-          </InputGroup>
-        </Col>
-      </Row>
-      <Row className="mt-4">
+             <Input value={filtro} onChange={(e) => {setFiltro(e.target.value)}}
+           onKeyUpCapture={buscar} placeholder='¿Que Pokémon quieres buscar?'></Input>
+           </InputGroup>
+          
+        </div>
+      </div>
+    
+      <div className="cardGrid">
         {listado.map( (pok,i)=>(
           <CardPokemon poke={pok} key={i} />
         )) }
-        { listado.length == 0 ?<Col className='text-center fs-2 mb-3'>No hay Pokemones</Col>: '' }
-      </Row>
-    </Container>
+        { listado.length == 0 ?<div className='text-center fs-2 mb-3'>No hay Pokemones</div>: '' }
+      </div>
+      </div>
+      </>
   )
 }
 

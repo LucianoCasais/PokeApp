@@ -1,4 +1,4 @@
-// import {Col,Card,CardBody,CardFooter,CardImg,Badge} from 'reactstrap'
+import {Col,Card,CardBody,CardFooter,CardImg,Badge} from 'reactstrap'
 import {useState,useEffect} from 'react'
 import { Link } from 'react-router-dom';
 import axios from 'axios'
@@ -36,8 +36,9 @@ export const CardPokemon = (params) => {
       <div className='cardImage'>
         <img src={imagen} alt="pokemon"/>
       </div>
-      {/* <a className='cardText' src={'/pokemon/'+pokemon.name}>Información</a> */}
-      <button className='cardButton' src={'/pokemon/'+pokemon.name}>Información</button>
+      <button className='cardButton'>
+        <Link to={`/pokemon/${pokemon.name}`}>Información</Link>
+      </button>
 
     </div>
     </ul> 

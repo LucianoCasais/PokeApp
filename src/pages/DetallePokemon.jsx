@@ -99,7 +99,7 @@ export const DetallePokemon = () => {
           <CardBody className='mt-3'>
             <Row>
               <Col className='text-end'>
-                <Link to='/' className= 'btn btn-dark'>
+                <Link to='/' className= 'btn btn-dark link'>
                   <i className='fa-solid fa-home'></i> Inicio
                 </Link>
               </Col>

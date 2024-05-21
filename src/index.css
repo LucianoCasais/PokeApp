@@ -2,10 +2,3 @@
     background-image: url('img/pokemon-fondo.jpg');
 } */
 
-.card-hover{
-    transition: all .25s ease
-}
-
-.card-hover:hover{
-    transform: translateY(-8px) scale(1.01)
-}

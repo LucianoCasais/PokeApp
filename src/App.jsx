@@ -11,7 +11,7 @@ function App() {
   return (
   <>
   <Header />
-    <BrowserRouter>
+    <BrowserRouter basename="/PokeApp">
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/pokemon/:id' element={<DetallePokemon />} />

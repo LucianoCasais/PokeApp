@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <>
             <div className="footer container_footer">
-                <p>Desing and Coded by</p>
+                <p>Design and Coded by</p>
                 <div className="imagen">
                     <a href="https://github.com/eugeolmedo" target="_blank">Eugenia Olmedo
                     <img className='icono' src={github} alt="Github" /></a>
